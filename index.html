@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio - Calculadora</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="aliar icon" type="image/png" href="assets/icon-aliar.png"/>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="calc-container">
+        <div class="calc-title">
+            <img src="assets/logo-aliar.png" alt="icon-aliar" />
+            <h1>Calculadora</h1>
+        </div>
+        <input type="text" id="display" disabled>
+        <div class="buttons">
+            <button class="c" onclick="limparDisplay()">C</button>
+            <button onclick="deletarUltimo()">
+                <i class="fas fa-backspace"></i>
+            </button>
+            <button onclick="adicionarAoDisplay('/')"><i class="fa-solid fa-divide"></i></button>
+            <button onclick="adicionarAoDisplay('7')">7</button>
+            <button onclick="adicionarAoDisplay('8')">8</button>
+            <button onclick="adicionarAoDisplay('9')">9</button>
+            <button onclick="adicionarAoDisplay('*')">X</button>
+            <button onclick="adicionarAoDisplay('4')">4</button>
+            <button onclick="adicionarAoDisplay('5')">5</button>
+            <button onclick="adicionarAoDisplay('6')">6</button>
+            <button onclick="adicionarAoDisplay('-')">-</button>
+            <button onclick="adicionarAoDisplay('1')">1</button>
+            <button onclick="adicionarAoDisplay('2')">2</button>
+            <button onclick="adicionarAoDisplay('3')">3</button>
+            <button onclick="adicionarAoDisplay('+')">+</button>
+            <button onclick="adicionarAoDisplay('0')">0</button>
+            <button onclick="adicionarAoDisplay('.')">.</button>
+            <button class="igual" onclick="calcularResultado()">=</button>
+        </div>
+    </div>
+
+
+<script src="script.js"></script>
+</body>
+</html>
