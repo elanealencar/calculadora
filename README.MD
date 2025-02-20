@@ -52,6 +52,8 @@ Este projeto foi desenvolvido como parte de um desafio de programação para a A
 
 ## Licença
 
-Este projeto foi desenvolvido por Elane Alencar
+Este projeto foi desenvolvido por Elane Alencar:
+
 [Portfólio] (https://portfolio-elanealencar.vercel.app/)
+
 [Linkedin] (https://linkedin.com/in/elanealencar/)
